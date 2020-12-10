@@ -8,7 +8,7 @@ package net.intelie.challenges;
 public class EventStoreImpl implements EventStore{
     /**
      *
-     * @param event
+     * @param event The event to insert
      */
     @Override
     public void insert(Event event) {
