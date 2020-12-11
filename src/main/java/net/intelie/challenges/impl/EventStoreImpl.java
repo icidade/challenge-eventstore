@@ -1,4 +1,8 @@
-package net.intelie.challenges;
+package net.intelie.challenges.impl;
+
+import net.intelie.challenges.Event;
+import net.intelie.challenges.EventIterator;
+import net.intelie.challenges.EventStore;
 
 /**
  * Implementation of the {@link EventStore} interface
