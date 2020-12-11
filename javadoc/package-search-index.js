@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"net.intelie.challenges"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"net.intelie.challenges"},{"l":"net.intelie.challenges.impl"}]
