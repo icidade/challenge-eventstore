@@ -11,11 +11,11 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * Implementation of the {@link EventStore} interface
  *
- * <p><br>For this challenge we will use is a {@link HashMap}. This collection can be accessed in O(1) time.
+ * <p><br>For this challenge we will use a {@link HashMap}. This collection can be accessed in O(1) time.
  * prioritizing performance and focusing a thread-safe operation we will synchronize operations acquiring locks
  * and we must assure them to be fast. Having in mind the code will have massive insert and remove
  * operations that will make it run on O(n) influenced by resorting operation in the collection caused by all add/remove
- * elements. All in all this approach seems to be more efficient than the use of a {@link java.util.LinkedList} or {@link Stack}.</p>
+ * elements. All in all this approach is more efficient than the use of a {@link java.util.LinkedList} or {@link Stack}.</p>
  *
  * @author Irlan Cidade (icidade@gmail.com)
  */
