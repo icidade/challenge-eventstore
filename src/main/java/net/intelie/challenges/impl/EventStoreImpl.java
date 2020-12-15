@@ -149,9 +149,9 @@ public class EventStoreImpl implements EventStore{
 
         while (nextMin <= nextMax) {
             int midIndex = (nextMin + nextMax) >>> 1;
-            long midVal = event.get(midIndex).timestamp();
+            long midValue = event.get(midIndex).timestamp();
 
-            if(element2 <= midVal) {
+            if(element2 <= midValue) {
                 nextMax = midIndex - 1;
             } else {
                 nextMin = midIndex + 1;
