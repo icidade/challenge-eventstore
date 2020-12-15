@@ -108,7 +108,7 @@ public class EventStoreImpl implements EventStore{
     }
 
     private boolean areValidParams(String type, long startTime, long endTime) {
-        return (null!=type && startTime > 0 && endTime > 0);
+        return (null!=type && startTime >= 0 && endTime > 0);
     }
 
     /**
